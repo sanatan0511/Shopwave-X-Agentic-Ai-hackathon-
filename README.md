@@ -184,7 +184,7 @@ This is the brain of the agent. It runs a **sequential graph** of four nodes:
 
 ---
 
-## Why This Architecture Works for the Hackathon
+## Why This Architecture  for the Hackathon
 
 - **3+ tool calls per chain**: The workflow alone calls at least `get_customer`, `get_order`, `initiate_refund/cancel_order`, and `send_reply`.  
 - **Concurrency**: MCP server can handle multiple requests; the processor script uses `asyncio` to process tickets concurrently.  
