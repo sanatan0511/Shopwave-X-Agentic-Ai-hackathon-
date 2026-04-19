@@ -1,0 +1,433 @@
+{
+  "timestamp": "2026-04-19T20:13:43.779157",
+  "total_tickets": 25,
+  "ticket_ids": [
+    "TKT-001",
+    "TKT-002",
+    "TKT-003",
+    "TKT-004",
+    "TKT-005",
+    "TKT-006",
+    "TKT-007",
+    "TKT-008",
+    "TKT-009",
+    "TKT-010",
+    "TKT-011",
+    "TKT-012",
+    "TKT-013",
+    "TKT-014",
+    "TKT-015",
+    "TKT-016",
+    "TKT-017",
+    "TKT-018",
+    "TKT-019",
+    "TKT-020",
+    "TKT-021",
+    "TKT-022",
+    "TKT-023",
+    "TKT-024",
+    "TKT-025"
+  ],
+  "summary": {
+    "resolved": 21,
+    "escalated": 1,
+    "needs_info": 3,
+    "errors": 0
+  },
+  "results": [
+    {
+      "ticket_id": "TKT-001",
+      "status": "processed",
+      "action": "info",
+      "timestamp": "2026-04-19T20:12:39.169032",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-001",
+        "status": "processed",
+        "action": "info",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999978542327881,
+        "response": "\ud83d\udcda 3. Warranty Policy\n\n### Coverage\n- Warranty covers **manufacturing defects only**.\n- Does not cover: physical damage caused by user, water damage, unauthorised modifications.\n\n### Warranty Periods by Category\n- Electronics (headphones, speakers, smart watches): 12 months from delivery date.\n- Home appliances (coffee makers, kitchen devices): 24 months from delivery date.\n- Electronics accessories: 6 months from delivery date.\n- Footwear and sports products: No warranty (covered only by return policy).\n\n### Warranty Claim Process\n- Customer must provide order ID and description of defect.\n- Age...\n\n---\n\n1. Return Policy\n\n### Standard Return Window\n- Most products have a **30-day return window** from the date of delivery.\n- Items must be unused, in original condition, and in original packaging.\n- Proof of purchase (order ID) is required for all returns.\n\n### Category-Specific Return Windows\n- **Electronics accessories** (laptop stands, cables, mounts): 60-day return window.\n- **High-value electronics** (smart watches, tablets, laptops): 15-day return window only.\n- **Footwear**: 30-day return window. Item must be unworn with no outdoor use.\n- **Sports & fitness equipment**: 30-day return windo...\n\n---\n\n8. Common FAQs\n\n**Q: How long does a refund take?**\nA: Refunds are processed within 5\u20137 business days after approval. The time to appear in the customer's account depends on their bank.\n\n**Q: Can I return a product I've used?**\nA: Generally no. Products must be in original, unused condition. Exceptions apply for defective or damaged items.\n\n**Q: Can I get a refund without returning the item?**\nA: Only in cases of damage on arrival or manufacturing defect confirmed by the support team.\n\n**Q: What if I don't have my order number?**\nA: The agent can look up the order using the customer's register...\n\nIs there anything else I can help with?",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-002",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:12:40.796449",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-002",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999996423721313,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-003",
+      "status": "escalated",
+      "action": "escalate",
+      "timestamp": "2026-04-19T20:12:41.969277",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-003",
+        "status": "escalated",
+        "action": "escalate",
+        "ml_decision": "info",
+        "ml_confidence": 0.999998927116394,
+        "response": "\u26a0\ufe0f Your ticket has been escalated to a human agent. They will reach out within 24 hours.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-004",
+      "status": "resolved",
+      "action": "exchange",
+      "timestamp": "2026-04-19T20:12:43.564241",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-004",
+        "status": "resolved",
+        "action": "exchange",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999998807907104,
+        "response": "\u2705 Exchange initiated. You'll receive return instructions via email.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-005",
+      "status": "resolved",
+      "action": "refund",
+      "timestamp": "2026-04-19T20:12:44.784919",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-005",
+        "status": "resolved",
+        "action": "refund",
+        "ml_decision": "info",
+        "ml_confidence": 0.999998927116394,
+        "response": "\u2705 Refund of $159.98 initiated. 5-7 business days for processing.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-006",
+      "status": "processed",
+      "action": "info",
+      "timestamp": "2026-04-19T20:12:46.035913",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-006",
+        "status": "processed",
+        "action": "info",
+        "ml_decision": "info",
+        "ml_confidence": 0.999998927116394,
+        "response": "\ud83d\udcda 8. Common FAQs\n\n**Q: How long does a refund take?**\nA: Refunds are processed within 5\u20137 business days after approval. The time to appear in the customer's account depends on their bank.\n\n**Q: Can I return a product I've used?**\nA: Generally no. Products must be in original, unused condition. Exceptions apply for defective or damaged items.\n\n**Q: Can I get a refund without returning the item?**\nA: Only in cases of damage on arrival or manufacturing defect confirmed by the support team.\n\n**Q: What if I don't have my order number?**\nA: The agent can look up the order using the customer's register...\n\n---\n\n2. Refund Policy\n\n### Refund Eligibility\n- Refunds are only issued after eligibility is confirmed via the `check_refund_eligibility` tool.\n- Refunds are processed to the original payment method.\n- Standard processing time: **5\u20137 business days** after approval.\n- Refunds cannot be reversed once issued.\n\n### Partial Refunds\n- Partial refunds may be issued for items returned in non-original condition.\n- A restocking fee of 10% may apply to high-value electronics returned outside of 7 days.\n\n### Refund Exceptions by Customer Tier\n- **Standard**: Standard return and refund policy applies. No except...\n\n---\n\n4. Order Cancellation Policy\n\n- Orders in **processing** status can be cancelled free of charge at any time before shipment.\n- Orders in **shipped** status cannot be cancelled \u2014 customer must wait for delivery and initiate a return.\n- Orders in **delivered** status cannot be cancelled.\n- Cancellations are confirmed via email within 1 hour.\n\n---\n\n\nIs there anything else I can help with?",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-007",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:12:47.263415",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-007",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999985694885254,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-008",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:12:48.576531",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-008",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999997615814209,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-009",
+      "status": "processed",
+      "action": "info",
+      "timestamp": "2026-04-19T20:12:49.805111",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-009",
+        "status": "processed",
+        "action": "info",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999988079071045,
+        "response": "\ud83d\udcda 8. Common FAQs\n\n**Q: How long does a refund take?**\nA: Refunds are processed within 5\u20137 business days after approval. The time to appear in the customer's account depends on their bank.\n\n**Q: Can I return a product I've used?**\nA: Generally no. Products must be in original, unused condition. Exceptions apply for defective or damaged items.\n\n**Q: Can I get a refund without returning the item?**\nA: Only in cases of damage on arrival or manufacturing defect confirmed by the support team.\n\n**Q: What if I don't have my order number?**\nA: The agent can look up the order using the customer's register...\n\n---\n\n2. Refund Policy\n\n### Refund Eligibility\n- Refunds are only issued after eligibility is confirmed via the `check_refund_eligibility` tool.\n- Refunds are processed to the original payment method.\n- Standard processing time: **5\u20137 business days** after approval.\n- Refunds cannot be reversed once issued.\n\n### Partial Refunds\n- Partial refunds may be issued for items returned in non-original condition.\n- A restocking fee of 10% may apply to high-value electronics returned outside of 7 days.\n\n### Refund Exceptions by Customer Tier\n- **Standard**: Standard return and refund policy applies. No except...\n\n---\n\n1. Return Policy\n\n### Standard Return Window\n- Most products have a **30-day return window** from the date of delivery.\n- Items must be unused, in original condition, and in original packaging.\n- Proof of purchase (order ID) is required for all returns.\n\n### Category-Specific Return Windows\n- **Electronics accessories** (laptop stands, cables, mounts): 60-day return window.\n- **High-value electronics** (smart watches, tablets, laptops): 15-day return window only.\n- **Footwear**: 30-day return window. Item must be unworn with no outdoor use.\n- **Sports & fitness equipment**: 30-day return windo...\n\nIs there anything else I can help with?",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-010",
+      "status": "processed",
+      "action": "info",
+      "timestamp": "2026-04-19T20:12:50.938976",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-010",
+        "status": "processed",
+        "action": "info",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999994039535522,
+        "response": "\ud83d\udcda 3. Warranty Policy\n\n### Coverage\n- Warranty covers **manufacturing defects only**.\n- Does not cover: physical damage caused by user, water damage, unauthorised modifications.\n\n### Warranty Periods by Category\n- Electronics (headphones, speakers, smart watches): 12 months from delivery date.\n- Home appliances (coffee makers, kitchen devices): 24 months from delivery date.\n- Electronics accessories: 6 months from delivery date.\n- Footwear and sports products: No warranty (covered only by return policy).\n\n### Warranty Claim Process\n- Customer must provide order ID and description of defect.\n- Age...\n\n---\n\n2. Refund Policy\n\n### Refund Eligibility\n- Refunds are only issued after eligibility is confirmed via the `check_refund_eligibility` tool.\n- Refunds are processed to the original payment method.\n- Standard processing time: **5\u20137 business days** after approval.\n- Refunds cannot be reversed once issued.\n\n### Partial Refunds\n- Partial refunds may be issued for items returned in non-original condition.\n- A restocking fee of 10% may apply to high-value electronics returned outside of 7 days.\n\n### Refund Exceptions by Customer Tier\n- **Standard**: Standard return and refund policy applies. No except...\n\n---\n\n7. Escalation Guidelines\n\nEscalate a ticket to a human agent when:\n- The issue involves a warranty claim (all warranty claims go to the warranty team).\n- The customer is requesting a replacement (not a refund) for a damaged item.\n- There is conflicting data between customer claims and system records.\n- The refund amount exceeds $200.\n- There are signs of fraud, manipulation, or social engineering.\n- The resolution requires supervisor approval (e.g. borderline premium case).\n- The agent confidence score is below 0.6.\n\nWhen escalating, always include:\n1. A concise summary of the issue\n2. What th...\n\nIs there anything else I can help with?",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-011",
+      "status": "resolved",
+      "action": "exchange",
+      "timestamp": "2026-04-19T20:13:11.827670",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-011",
+        "status": "resolved",
+        "action": "exchange",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999978542327881,
+        "response": "\u2705 Exchange initiated. You'll receive return instructions via email.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-012",
+      "status": "resolved",
+      "action": "cancel",
+      "timestamp": "2026-04-19T20:13:13.460296",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-012",
+        "status": "resolved",
+        "action": "cancel",
+        "ml_decision": "info",
+        "ml_confidence": 0.999997615814209,
+        "response": "\u2705 Order ORD-1012 has been cancelled successfully\n\nRefund will be processed within 5-7 business days",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-013",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:13:15.382072",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-013",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999985694885254,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-014",
+      "status": "processed",
+      "action": "info",
+      "timestamp": "2026-04-19T20:13:16.743465",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-014",
+        "status": "processed",
+        "action": "info",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999996423721313,
+        "response": "\ud83d\udcda 1. Return Policy\n\n### Standard Return Window\n- Most products have a **30-day return window** from the date of delivery.\n- Items must be unused, in original condition, and in original packaging.\n- Proof of purchase (order ID) is required for all returns.\n\n### Category-Specific Return Windows\n- **Electronics accessories** (laptop stands, cables, mounts): 60-day return window.\n- **High-value electronics** (smart watches, tablets, laptops): 15-day return window only.\n- **Footwear**: 30-day return window. Item must be unworn with no outdoor use.\n- **Sports & fitness equipment**: 30-day return windo...\n\n---\n\n3. Warranty Policy\n\n### Coverage\n- Warranty covers **manufacturing defects only**.\n- Does not cover: physical damage caused by user, water damage, unauthorised modifications.\n\n### Warranty Periods by Category\n- Electronics (headphones, speakers, smart watches): 12 months from delivery date.\n- Home appliances (coffee makers, kitchen devices): 24 months from delivery date.\n- Electronics accessories: 6 months from delivery date.\n- Footwear and sports products: No warranty (covered only by return policy).\n\n### Warranty Claim Process\n- Customer must provide order ID and description of defect.\n- Age...\n\n---\n\n2. Refund Policy\n\n### Refund Eligibility\n- Refunds are only issued after eligibility is confirmed via the `check_refund_eligibility` tool.\n- Refunds are processed to the original payment method.\n- Standard processing time: **5\u20137 business days** after approval.\n- Refunds cannot be reversed once issued.\n\n### Partial Refunds\n- Partial refunds may be issued for items returned in non-original condition.\n- A restocking fee of 10% may apply to high-value electronics returned outside of 7 days.\n\n### Refund Exceptions by Customer Tier\n- **Standard**: Standard return and refund policy applies. No except...\n\nIs there anything else I can help with?",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-015",
+      "status": "resolved",
+      "action": "exchange",
+      "timestamp": "2026-04-19T20:13:17.972163",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-015",
+        "status": "resolved",
+        "action": "exchange",
+        "ml_decision": "info",
+        "ml_confidence": 0.999998927116394,
+        "response": "\u2705 Exchange initiated. You'll receive return instructions via email.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-016",
+      "status": "needs_info",
+      "action": "ask_for_info",
+      "timestamp": "2026-04-19T20:13:17.982729",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-016",
+        "status": "needs_info",
+        "action": "ask_for_info",
+        "response": "I couldn't find your account. Could you please provide your order ID and registered email address?"
+      }
+    },
+    {
+      "ticket_id": "TKT-017",
+      "status": "needs_info",
+      "action": "invalid_order",
+      "timestamp": "2026-04-19T20:13:17.995660",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-017",
+        "status": "needs_info",
+        "action": "invalid_order",
+        "response": "I couldn't find order ORD-9999. Could you please provide the correct order number?"
+      }
+    },
+    {
+      "ticket_id": "TKT-018",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:13:19.221922",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-018",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999998807907104,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-019",
+      "status": "processed",
+      "action": "info",
+      "timestamp": "2026-04-19T20:13:20.285299",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-019",
+        "status": "processed",
+        "action": "info",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999927282333374,
+        "response": "\ud83d\udcda 8. Common FAQs\n\n**Q: How long does a refund take?**\nA: Refunds are processed within 5\u20137 business days after approval. The time to appear in the customer's account depends on their bank.\n\n**Q: Can I return a product I've used?**\nA: Generally no. Products must be in original, unused condition. Exceptions apply for defective or damaged items.\n\n**Q: Can I get a refund without returning the item?**\nA: Only in cases of damage on arrival or manufacturing defect confirmed by the support team.\n\n**Q: What if I don't have my order number?**\nA: The agent can look up the order using the customer's register...\n\n---\n\n1. Return Policy\n\n### Standard Return Window\n- Most products have a **30-day return window** from the date of delivery.\n- Items must be unused, in original condition, and in original packaging.\n- Proof of purchase (order ID) is required for all returns.\n\n### Category-Specific Return Windows\n- **Electronics accessories** (laptop stands, cables, mounts): 60-day return window.\n- **High-value electronics** (smart watches, tablets, laptops): 15-day return window only.\n- **Footwear**: 30-day return window. Item must be unworn with no outdoor use.\n- **Sports & fitness equipment**: 30-day return windo...\n\n---\n\n2. Refund Policy\n\n### Refund Eligibility\n- Refunds are only issued after eligibility is confirmed via the `check_refund_eligibility` tool.\n- Refunds are processed to the original payment method.\n- Standard processing time: **5\u20137 business days** after approval.\n- Refunds cannot be reversed once issued.\n\n### Partial Refunds\n- Partial refunds may be issued for items returned in non-original condition.\n- A restocking fee of 10% may apply to high-value electronics returned outside of 7 days.\n\n### Refund Exceptions by Customer Tier\n- **Standard**: Standard return and refund policy applies. No except...\n\nIs there anything else I can help with?",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-020",
+      "status": "processed",
+      "action": "info",
+      "timestamp": "2026-04-19T20:13:21.553764",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-020",
+        "status": "processed",
+        "action": "info",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999982118606567,
+        "response": "\ud83d\udcda 8. Common FAQs\n\n**Q: How long does a refund take?**\nA: Refunds are processed within 5\u20137 business days after approval. The time to appear in the customer's account depends on their bank.\n\n**Q: Can I return a product I've used?**\nA: Generally no. Products must be in original, unused condition. Exceptions apply for defective or damaged items.\n\n**Q: Can I get a refund without returning the item?**\nA: Only in cases of damage on arrival or manufacturing defect confirmed by the support team.\n\n**Q: What if I don't have my order number?**\nA: The agent can look up the order using the customer's register...\n\n---\n\n2. Refund Policy\n\n### Refund Eligibility\n- Refunds are only issued after eligibility is confirmed via the `check_refund_eligibility` tool.\n- Refunds are processed to the original payment method.\n- Standard processing time: **5\u20137 business days** after approval.\n- Refunds cannot be reversed once issued.\n\n### Partial Refunds\n- Partial refunds may be issued for items returned in non-original condition.\n- A restocking fee of 10% may apply to high-value electronics returned outside of 7 days.\n\n### Refund Exceptions by Customer Tier\n- **Standard**: Standard return and refund policy applies. No except...\n\n---\n\n1. Return Policy\n\n### Standard Return Window\n- Most products have a **30-day return window** from the date of delivery.\n- Items must be unused, in original condition, and in original packaging.\n- Proof of purchase (order ID) is required for all returns.\n\n### Category-Specific Return Windows\n- **Electronics accessories** (laptop stands, cables, mounts): 60-day return window.\n- **High-value electronics** (smart watches, tablets, laptops): 15-day return window only.\n- **Footwear**: 30-day return window. Item must be unworn with no outdoor use.\n- **Sports & fitness equipment**: 30-day return windo...\n\nIs there anything else I can help with?",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-021",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:13:37.663117",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-021",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999997615814209,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-022",
+      "status": "needs_info",
+      "action": "refund",
+      "timestamp": "2026-04-19T20:13:39.266921",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-022",
+        "status": "needs_info",
+        "action": "refund",
+        "ml_decision": "info",
+        "ml_confidence": 0.999994158744812,
+        "response": "\u274c Refund failed: Refund already processed for this order",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-023",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:13:40.502817",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-023",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999996423721313,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-024",
+      "status": "processed",
+      "action": "deny",
+      "timestamp": "2026-04-19T20:13:42.135793",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-024",
+        "status": "processed",
+        "action": "deny",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999997615814209,
+        "response": "\u274c Based on our policy, this request cannot be processed. Please contact support for more information.",
+        "tool_calls": []
+      }
+    },
+    {
+      "ticket_id": "TKT-025",
+      "status": "resolved",
+      "action": "refund",
+      "timestamp": "2026-04-19T20:13:43.772751",
+      "full_response": {
+        "success": true,
+        "ticket_id": "TKT-025",
+        "status": "resolved",
+        "action": "refund",
+        "ml_decision": "info",
+        "ml_confidence": 0.9999983310699463,
+        "response": "\u2705 Refund of $159.98 initiated. 5-7 business days for processing.",
+        "tool_calls": []
+      }
+    }
+  ]
+}
